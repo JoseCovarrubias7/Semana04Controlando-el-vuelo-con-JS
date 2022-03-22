@@ -1,0 +1,168 @@
+form {
+    margin: 20px auto;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    border:none;
+    background-color: #FFF;
+    height: 25%;
+
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #dedede;
+    border: 8px solid black;
+    text-transform: uppercase;
+    
+}
+
+.div-2{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.div-1{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+.div-3{
+    background-color: rgb(131, 125, 125);
+}
+
+.div-5{
+    height: 35rem;
+    background-color: #dc0a2d;
+}
+
+.btn-circulo{
+    background-image:url('https://cdn-icons-png.flaticon.com/128/528/528101.png');
+    background-repeat:no-repeat;
+    height:60px;
+    width:70px;
+    background-size: 50px 50px;
+    background-position:center;
+    background-color: #dc0a2d;
+    outline: none;
+    border:none;
+
+}
+
+.btn-circulo:hover {
+    color:rgb(255, 255, 255);
+        
+}
+
+
+
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #69d0d8;
+    border: 10px ;
+    border-radius: 9px;
+
+    
+}
+
+.poke-abilities div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #69d0d8;
+    margin: 5px;
+    border-radius: 20px;
+
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+    text-transform: uppercase;
+    background-color: typeColor;
+}
+
+.div-8{
+    display: flex;
+    justify-content: space-around;
+}
+
+.poke-moves div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #69d0d8;
+    border-radius: 20px;
+
+
+}
+
+.poke-img {
+    width: 180px;
+}
+
+.poke-img-3{
+    width: 250px;
+}
+
+.poke-img-4{
+    width: 150px;
+}
+
+.poke-img-2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.input-3{
+        cursor: not-allowed;
+        background-color: #55ab62;
+        pointer-events:none;
+}
